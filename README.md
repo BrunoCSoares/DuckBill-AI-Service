@@ -14,15 +14,15 @@ Nesta etapa, focamos na inteligência preditiva e na portabilidade da solução:
 
 ### 1. Treinamento e Acurácia do Modelo
 O modelo foi treinado utilizando uma base de dados de transações bancárias, alcançando um alto índice de confiança.
-![Acurácia do Modelo](./evidencias/notebook_acuracia.png)
+![Acurácia do Modelo](./evidencias/evidenciaAcuracia.png)
 
 ### 2. API em Funcionamento (Teste de Integração)
 Demonstração da API recebendo uma descrição de gasto e retornando a categoria e o nível de confiança via JSON.
-![Teste Postman](./evidencias/teste_api.png)
+![Teste Postman](./evidencias/evidenciaRequisicao.png)
 
 ### 3. Containerização Docker
 O serviço está isolado em um container, garantindo que as dependências (scikit-learn, flask) funcionem em qualquer ambiente.
-![Docker PS](./evidencias/docker_ps.png)
+![Docker PS](./evidencias/evidenciaDisponibilidade.png)
 
 ---
 
@@ -54,6 +54,7 @@ Envie um POST para http://localhost:5000/predict com o corpo:
 ---
 
 👥 Integrantes
+
 Bruno Carlos Soares - RM 559250
 
 Lucas Borges de Souza - RM 560027
